@@ -1,0 +1,42 @@
+CRITICAL - 2021-03-12 18:00:05 --> Undefined variable: ListPetugas
+#0 D:\CI4\Pengaduan\app\Views\Petugas\tampil-petugas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\CI4\\Pengadua...', 23, Array)
+#1 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\CI4\\Pengadua...')
+#2 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Petugas/tampil-...', Array, true)
+#4 D:\CI4\Pengaduan\app\Controllers\Petugas.php(54): view('Petugas/tampil-...')
+#5 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Petugas->tampilUser()
+#6 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+#7 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\CI4\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\CI4\\Pengadua...')
+#10 {main}
+CRITICAL - 2021-03-12 18:03:11 --> compact(): Undefined variable: ListPetugas
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'compact(): Unde...', 'D:\\CI4\\Pengadua...', 54, Array)
+#1 D:\CI4\Pengaduan\app\Controllers\Petugas.php(54): compact('ListPetugas')
+#2 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Petugas->tampilUser()
+#3 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+#4 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\CI4\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\CI4\\Pengadua...')
+#7 {main}
+CRITICAL - 2021-03-12 18:03:15 --> compact(): Undefined variable: ListPetugas
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'compact(): Unde...', 'D:\\CI4\\Pengadua...', 54, Array)
+#1 D:\CI4\Pengaduan\app\Controllers\Petugas.php(54): compact('ListPetugas')
+#2 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Petugas->tampilUser()
+#3 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+#4 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\CI4\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\CI4\\Pengadua...')
+#7 {main}
+CRITICAL - 2021-03-12 18:03:47 --> Undefined variable: ListPetugas
+#0 D:\CI4\Pengaduan\app\Views\Petugas\tampil-petugas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\CI4\\Pengadua...', 23, Array)
+#1 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\CI4\\Pengadua...')
+#2 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Petugas/tampil-...', Array, true)
+#4 D:\CI4\Pengaduan\app\Controllers\Petugas.php(54): view('Petugas/tampil-...', Array)
+#5 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Petugas->tampilUser()
+#6 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+#7 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\CI4\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\CI4\\Pengadua...')
+#10 {main}

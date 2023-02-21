@@ -1,0 +1,41 @@
+CRITICAL - 2021-03-28 09:31:46 --> Call to undefined function form_open_multipart()
+#0 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Masyarakat/v_pe...', Array, true)
+#3 D:\CI4\Pengaduan\app\Controllers\Controllermasyarakat.php(77): view('Masyarakat/v_pe...', Array)
+#4 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Controllermasyarakat->pengaduan()
+#5 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllermasyarakat))
+#6 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CI4\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\CI4\\Pengadua...')
+#9 {main}
+CRITICAL - 2021-03-28 09:57:40 --> syntax error, unexpected ',', expecting ']'
+#0 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Petugas/verifik...', Array, true)
+#2 D:\CI4\Pengaduan\app\Controllers\Petugas.php(194): view('Petugas/verifik...', Array)
+#3 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Petugas->tanggapan('13')
+#4 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+#5 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\CI4\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\CI4\\Pengadua...')
+#8 {main}
+CRITICAL - 2021-03-28 10:02:04 --> Undefined variable: data
+#0 D:\CI4\Pengaduan\app\Views\Petugas\verifikasi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\CI4\\Pengadua...', 20, Array)
+#1 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\CI4\\Pengadua...')
+#2 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Petugas/verifik...', Array, true)
+#4 D:\CI4\Pengaduan\app\Controllers\Petugas.php(194): view('Petugas/verifik...', Array)
+#5 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Petugas->tanggapan('13')
+#6 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+#7 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\CI4\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\CI4\\Pengadua...')
+#10 {main}
+CRITICAL - 2021-03-28 11:07:44 --> Undefined variable: datanya
+#0 D:\CI4\Pengaduan\app\Controllers\Petugas.php(216): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\CI4\\Pengadua...', 216, Array)
+#1 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Petugas->simpantanggapan()
+#2 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+#3 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\CI4\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\CI4\\Pengadua...')
+#6 {main}

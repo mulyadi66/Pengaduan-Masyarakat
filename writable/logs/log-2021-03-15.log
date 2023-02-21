@@ -1,0 +1,12 @@
+CRITICAL - 2021-03-15 22:20:13 --> Undefined variable: ListMasyarakat
+#0 D:\CI4\Pengaduan\app\Views\Masyarakat\tampil-masyarakat.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\CI4\\Pengadua...', 24, Array)
+#1 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\CI4\\Pengadua...')
+#2 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('masyarakat/tamp...', Array, true)
+#4 D:\CI4\Pengaduan\app\Controllers\Controllermasyarakat.php(16): view('masyarakat/tamp...')
+#5 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Controllermasyarakat->tampilMasyarakat()
+#6 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllermasyarakat))
+#7 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\CI4\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\CI4\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\CI4\\Pengadua...')
+#10 {main}
